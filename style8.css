@@ -1,0 +1,52 @@
+.rectangle1 {
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	margin-left: 200px;
+}
+
+.rectangle2 {
+	width: 50px;
+	height: 20px;
+	background-color: black;
+	margin-top: -35px;
+	margin-left: 225px;
+
+}
+
+.outer {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+}
+
+.inner {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	display: inline-block;
+	margin: auto;
+}
+
+.outer1 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 300px;
+}
+
+.inner1 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	display: inline-block;
+	white-space: nowrap;
+    overflow: hidden;
+}
+
+

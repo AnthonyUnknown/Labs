@@ -1,0 +1,63 @@
+div {
+	color:B8B8AB;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#first {
+	color: pink;
+}
+
+
+.purple2 {
+	border: 5px solid purple;
+}
+
+#fifth {
+	text-transform: uppercase;
+}
+
+div:nth-of-type(even) {
+	font-variant: small-caps;
+}
+
+#ssilka1 {
+	color: gray;
+	visited: green;
+}
+
+#ssilka1:visited {
+	color: green;
+}
+
+#ssilka1:hover {
+	color: yellow;
+}
+
+#ssilka1:active {
+	color: purple;
+}
+
+#ssilka2{
+	text-decoration: none;
+}
+
+#ssilka2:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+#ssilka3 {
+	border: 1px solid #DC143C;
+	display: inline-block;
+	padding: 5px 15px; 
+	text-decoration: none;
+	color: pink;
+}
+
+#ssilka3:hover {
+	box-shadow: 0px 0px 5px #000000;
+	background: linear-gradient(to bottom, #fcfff4, #e9e9ce);
+	color: green;
+	
+}

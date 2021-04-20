@@ -1,0 +1,10 @@
+.c1 {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.td1:nth-child(even) {
+	color: gray;
+}
+	
+	

@@ -1,0 +1,22 @@
+div {
+	color:B8B8AB;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#first {
+	color: pink;
+}
+
+
+.purple2 {
+	border: 5px solid purple;
+}
+
+#fifth {
+	text-transform: uppercase;
+}
+
+div:nth-of-type(even) {
+	font-variant: small-caps;
+}
