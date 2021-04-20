@@ -3,13 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Site</title>
-	<link href="sitestyle.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/sitestyle.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 
 <body>
+	<input type="checkbox" id="theme-switch">
+	<div id="page">
+		<label for="theme-switch"></label>
 	<div class="header_wrapper"> 
-			<div class="left_header">
-				<div class="img"><img src="123.png"></div>
+		<div class="left_header">
+				<div class="img"><img src="./imgs/123.png"></div>
 				<div class="lefttext">
 					<div class="lefttext1">MD. TOWFIQUR RAHMAN</div>
 					<div class="lefttext2">UI/UX Designer</div>
@@ -18,24 +23,24 @@
 			
 		<div class="right_header">
 				<div class="img1text1">
-					<div class="img1"><img src="feathermail.png"></div>
+					<div class="img1"><img src="./imgs/feathermail.png"></div>
 					<div class="text1">towfiqpiash@mail.com</div>
 				</div>
-				<div class="img2text2">
-					<div class="img2"><img src="featherphone.png"></div>
-					<div class="text2">01722486102</div>
+				<div class="img1text1">
+					<div class="img2"><img src="./imgs/featherphone.png"></div>
+					<div class="text1">01722486102</div>
 				</div>
-				<div class="img3text3">
-					<div class="img3"><img src="feathermappin.png"></div>
-					<div class="text3">Dhaka, Bangladesh</div>
+				<div class="img1text1">
+					<div class="img3"><img src="./imgs/feathermappin.png"></div>
+					<div class="text2">Dhaka, Bangladesh</div>
 				</div>	
 		</div>
 	</div>
-	<div class="main_info">             <!-- I added flex box "main_info" and applied to it "space-evenly". Look to the left -->
-		<div class="main_info_left">    <!-- Then i added two flex boxes "main_info_left" and "main_info_right" and apllied to it "flex-direction: column" -->
-			<div class="column1">       <!-- Dont flame me pls ^_^ -->
+	<div class="main_info">             
+		<div class="main_info_left">    
+			<div class="column1">       
 				<div class="column11">
-					<div class="left_main_img1"><img src="button.png"></div>
+					<div class="left_main_img1"><img src="./imgs/button.png"></div>
 					<div class="left_main1"><strong>ABOUT</strong> ME</div>
 				</div>
 				<div class="column12">
@@ -45,7 +50,7 @@
 
 			<div class="middle_left">
 				<div class="middle_left1">
-					<div class="middle_left1_button"><img src="button.png"></div>
+					<div class="middle_left1_button"><img src="./imgs/button.png"></div>
 					<div class="middle_left1_text"><strong>WORK</strong> HISTORY</div>
 				</div><br>
 				<div class="middle_left2">
@@ -56,7 +61,7 @@
 				<div class="middle_left3">
 					<div class="middle_left3_text">
 						<p class="middle_left3_p1">October 2018 - Now</p>
-						<p class="middle_left3_p2">Designed full UI of a brand new<br>app from scratch, brought couple of new<br>features to life and improved few existing<br>products' user experience.</p>
+						<p class="middle_left3_p1">Designed full UI of a brand new<br>app from scratch, brought couple of new<br>features to life and improved few existing<br>products' user experience.</p>
 					</div>
 				</div>
 				<div class="middle_left4">
@@ -69,7 +74,7 @@
 					<p class="middle_left5_p2">Involved in developing web apps & <br> and improving existing service</p>
 				</div>
 				<div class="middle_left6">
-					<div class="middle_left6_button"><img src="button.png"></div>
+					<div class="middle_left6_button"><img src="./imgs/button.png"></div>
 					<div class="middle_left6_text"><strong>CORE</strong> SKILLSET</div>
 				</div>
 				<div class="middle_left7">Design Thinking, Competitor Analysis, User<br> Research, Personas, User Journeys, Sketching,<br> Wireframes, Design System, Rapid Prototyping,<br> UI Design, Interaction Design, User-centered<br> Design, Usability Testing<br><br> HTML5/CSS3, JavaScript, jQuery, Bootstrap,<br> MaterializeCSS, GitHub, Icon Design,<br> Typography</div>
@@ -78,18 +83,18 @@
 		<div class="main_info_right">	
 			<div class="column2">
 					<div class="column21">
-						<div class="right_main_img1"><img src="button.png"></div>
+						<div class="right_main_img1"><img src="./imgs/button.png"></div>
 						<div class="right_main1"><strong>VENDOR</strong> CERTIFICATION</div>
 					</div><br>
 					<div class="column22">
-						<div class="logotree"><img src="logotree.png"> </div>
-						<div class="right_main_text1">Design Thinking:The<br>Beginner's Guide <img src="top10.png"></div>
+						<div class="logotree"><img src="./imgs/logotree.png"> </div>
+						<div class="right_main_text1">Design Thinking:The<br>Beginner's Guide <img src="./imgs/top10.png"></div>
 					</div>
 				</div>
 	
 			<div class="middle_right">
 				<div class="middle_right1">
-					<div class="middle_right1_button"><img src="button.png"></div>
+					<div class="middle_right1_button"><img src="./imgs/button.png"></div>
 					<div class="middle_right1_text"><strong>ACADEMIC</strong> BACKGROUND</div>
 				</div><br>
 				<div class="middle_right2">
@@ -109,7 +114,7 @@
 				<div class="middle_right5">
 					<div class="middle_right5_text">
 						<p class="middle_right5_p1">Science . Dhaka Board</p>
-						<p class="middle_right5_p2">GPA: 5.00</p>
+						<p class="middle_right5_p1">GPA: 5.00</p>
 					</div>
 				</div>
 				<div class="middle_right6">
@@ -118,21 +123,30 @@
 				</div>
 				<div class="middle_right7">
 					<p class="middle_right7_p1">Science . Dhaka Board</p>
-					<p class="middle_right7_p2">GPA: 5.00</p>
+					<p class="middle_right7_p1">GPA: 5.00</p>
 				</div>
 				<div class="middle_right8">
-					<div class="middle_right8_button"><img src="button.png"></div>
+					<div class="middle_right8_button"><img src="./imgs/button.png"></div>
 					<div class="middle_right8_text"><strong>TOOLS</strong> | USE</div>
 				</div>
 				<div class="middle_right9">Photoshop, Illustrator, Protopie, <strong>Adobe XD</strong>,<br> Zeplin, After Effects (basic), Invision Studio,<br> Figma, Blender (basic),</div>
 			</div>
 		</div>
 	</div>
-		<div class="under1">
-			<div class="tilted1"><img src="depressed.jpg"></div>
-			<div><img src="depressed.jpg"></div>
-			<div><img src="depressed.jpg"></div>
-		</div>
+	<div class="imgs-hover">
+		<div class="imgs-hover1" width="100%">	
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+		</div>	
+			<br>
+		<div class="imgs-hover1" width="100%">	
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+			<img class="img-hover" src="./imgs/resume.jpg" width="200px">
+		</div>	
+	</div>
+	</div>
 </body>
 
 </html>
